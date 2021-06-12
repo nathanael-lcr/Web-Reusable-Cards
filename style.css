@@ -1,0 +1,114 @@
+h1 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    padding-left: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    z-index: 4;
+    position: absolute;
+}
+
+.Card1 {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(226, 226, 226);
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    border: rgb(85, 85, 85);
+    border-style: solid;
+    z-index: 5;
+
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    overflow-y: hidden;
+}
+
+.cards-button1 {
+    height: 32px;
+    width: 90px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 280px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+}
+
+button {
+    height: 32px;
+    width: 90px;
+    background-color: rgb(85, 85, 85);
+    border-radius: 5px;
+    font-family: 'Lexend', sans-serif;
+    border: none;
+    color: white;
+
+}
+
+button:hover {
+    background-color: rgb(226, 226, 226);
+    transition: 500ms;
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+
+.cards-text1 {
+    font-size: 12px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    word-break: keep-all;
+    padding-right: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(34, 34, 34);
+    z-index: 3;
+}
+
+.cards-decoration1{
+    height: 20px;
+    width: 70px;
+    margin-top: 70px;
+    margin-left: 120px;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    color: lightgray;
+    opacity: 120%;
+    font-size: 30px;
+}
+
+.cards-decoration2 {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    color: lightgray;
+    opacity: 80%;
+    text-orientation: sideways-right;
+    writing-mode: vertical-rl;
+    margin-top: -12px;
+    font-size: 90px;
+    z-index: 1;
+
+}
+
+.titledesc {
+    font-size: 30px;
+    color: rgb(116, 116, 116);
+    font-weight: 300;
+    z-index: 7;
+    position: absolute;
+}
+
+.background {
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    color: rgb(189, 189, 189);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin-top: -170px;
+    opacity: 10%;
+}
